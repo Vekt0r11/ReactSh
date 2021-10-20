@@ -8,6 +8,7 @@ import Home from './components/Pages/Home';
 import Posts from './components/Pages/Posts';
 import Users from './components/Pages/Users';
 import Gift from './components/Pages/Gift';
+import React, {useState, useEffect} from 'react';
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
         <Route exact path="/posts"  component={Posts} />
         <Route exact path="/users"  component={Users} />
         <Route exact path="/login"  component={Login} />
-        <Route exact path="/gift"  component={Gift} />
+        <Route exact path="/gift"   component={Gift} />
       </Switch>
     )
   }

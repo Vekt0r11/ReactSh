@@ -23,7 +23,7 @@ function Form() {
                 <input type="checkbox" value="remember-me"></input> Recuerdame
             </label>
             </div>
-            <button className="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+            <button className="w-100 btn btn-lg btn-primary" type="submit">Iniciar sesion</button>
             <p className="mt-5 mb-3 text-muted text-center">&copy; 2017–2021 - TSDSM</p>
         </form>
     </main>
